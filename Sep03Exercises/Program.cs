@@ -41,6 +41,7 @@ namespace Sep03Exercises
             Console.WriteLine("Ques11");
             c1.bookdis();
             Cart c2 = new Cart();
+            Cart.Count=0;
             c2.CustomerId = 13;
             c2.BookingId = 1232;
             c2.Addtocart(1, "Psalm of life", 200.0f);
